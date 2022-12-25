@@ -1,0 +1,10 @@
+.bilboardWrp {
+    height: 320px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.image {
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,57 @@
+.cardWrp {
+    height: 300px;
+    border: var(--primaryBorder);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.imgContainer {
+    height: 100%;
+    width: 100%;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.cardWrp:hover {
+    background: var(--secendaryBackground);
+}
+
+.cradDetailse {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr 1fr;
+    align-items: center;
+    padding: 0px 7px;
+}
+
+.title {
+    color: var(--secendaryColor);
+}
+
+.staring {
+    width: fit-content;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.startIcons {
+    color: var(--startColor);
+    font-size: var(--fontSizeThree);
+}
+
+.prcePlusIcons {
+    color: var(--startColor);
+    font-weight: bold;
+}
+
+.del {
+    color: var(--secendaryColor);
+}

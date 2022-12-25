@@ -1,0 +1,11 @@
+.ToolTipWrp {
+    width: fit-content;
+    padding: 5px;
+    font-size: var(--fontSizeTwo);
+    margin-right: 20px;
+}
+
+.ToolTipWrp:hover {
+    border: var(--primaryBorder);
+    border-radius: 5px;
+}

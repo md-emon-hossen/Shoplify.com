@@ -1,0 +1,47 @@
+.headerWrp {
+    height: 90px;
+    width: 100%;
+    border: var(--primaryBorder);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr .8fr;
+    align-items: center;
+    padding: 0px 20px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    z-index: 999;
+    background: var(--parimaryBackground);
+}
+
+.topberWrp {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    align-items: center;
+}
+
+.toolTipWrp {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+
+}
+
+
+.toolTipWrp::-webkit-scrollbar {
+    display: none;
+}
+
+.navWrp {
+    display: grid;
+    width: fit-content;
+    float: right;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.icons {
+
+    font-size: 30px;
+}

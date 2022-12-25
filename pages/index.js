@@ -1,15 +1,34 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-import styles from '../styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
+import BilBoard from "../componnent/BilBoard";
+import Card from "../componnent/Card";
+import Container from "../componnent/Container";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <>
-      this is upcoming app...
-      
-    </>
+    <div className={styles.homeWrp}>
+      <BilBoard />
+      <Container>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </Container>
+    </div>
   )
 }

@@ -1,0 +1,14 @@
+.FooterWrp {
+    height: 300px;
+    width: 100%;
+    border: var(--primaryBorder);
+    padding: 0px 20px;
+    display: grid;
+    grid-template-rows: 1fr .2fr;
+}
+
+.coryRightWrp {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
